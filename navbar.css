@@ -1,0 +1,30 @@
+.bg-custom{
+	background-image: linear-gradient(to left, #8B0F0A 0% , #E1110A 51%);
+	border: none;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.3s;
+}
+
+.bg-custom:hover{
+	background-image: linear-gradient(to left, #B9100A 0%, #EA1C14 51%);
+}
+
+
+.bg-active{
+	background-color: transparent !important;
+	transition: 0.3s;
+	color: #DD1109 !important;
+}
+.navbar{
+	width: 100%;
+}
+.link-navbar{
+	color: #000;
+	transition: 0.3s;
+}
+.link-navbar:hover{
+	color: #DD1109;
+}
